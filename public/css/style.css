@@ -1,0 +1,301 @@
+body {
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+#logo {
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+}
+
+.global-container {
+    padding: 25px 10vw;
+}
+
+.bg-grey {
+    background-color: #F1F3FF;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.no-mp {
+    margin: 0;
+    padding: 0;
+}
+
+.link-no-decoration {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-success {
+    background: #5CB85F;
+    border-radius: 2px;
+    padding: 8px 12px;
+    border: none;
+    width: 81px;
+}
+
+.btn-hero {
+    width: 140px;
+    height: 36px;
+    font-size: 14px;
+}
+
+.btn-burger-menu {
+    border: none;
+    background-color: transparent;
+}
+
+#sidebar-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .global-container {
+        padding: 24px 16px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    #sidebar-menu {
+        display: block;
+    }
+
+    .title-why-us{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .global-container {
+        padding: 24px 16px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    #sidebar-menu {
+        display: block;
+    }
+
+    .title-why-us{
+        text-align: center;
+    }
+}
+
+.img-car{
+    width: 49.46vw;
+}
+
+
+
+.icon-check {
+    background-color: #CFD4ED;
+    border-radius: 50%;
+    color: #0D28A6;
+    padding: 3px;
+}
+
+.testi h3 {
+    text-align: center;
+}
+
+.testi p {
+    text-align: center;
+}
+
+.cta-banner {
+    background: #0d28a6;
+    width: 1168px;
+    height: 326px;
+    margin: 0 auto;
+    border-radius: 13px;
+    text-align: center;
+  }
+
+  .vh-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Helvetica;
+    padding-bottom: 40px;
+}
+
+.hero-desc h1 {
+    max-width: 568px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.hero-desc p {
+    max-width: 468px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* END */
+
+
+/* Banner */
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D28A6;
+    width: 100%;
+    min-height: 326px;
+    color: #FFFFFF;
+    border-radius: 13px;
+    padding: 30px;
+}
+
+.call-to-action h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.call-to-action p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-bottom: 52px;
+    max-width: 470px;
+}
+/* End Banner*/
+
+
+/* FAQ */
+.faq-section {
+    margin-top: 100px;
+}
+
+.faq-intro h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.faq-intro P {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.list-questions {
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+
+.accordion-box {
+    width: 100%;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #D4D4D4;
+    margin-bottom: 16px;
+}
+/* End FAQ */
+
+/* Fotter */
+.footer-section {
+    margin-top: 100px;
+    margin-bottom: 76px;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+
+.footer-section h5 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.footer-section .navigation li {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer-section .navigation a {
+    position: relative;
+    right: 32px;
+}
+
+.footer-section .navigation li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.footer-section .sosmed li {
+    position: relative;
+    left: -30px;
+    float: left;
+    list-style: none;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.footer-section .sosmed li img:hover {
+    opacity: 50%;
+}
+
+.address {
+    display: block;
+}
+/* End Footer */
